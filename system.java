@@ -10,6 +10,7 @@ public class system {
 		int correct=0;
 		int incorrect=0;
 		Device device;
+		@SuppressWarnings("resource")
 		Scanner reader=new Scanner(System.in);
 		System.out.println("请输入算式长度（运算数个数）：");
 		length=reader.nextInt();
